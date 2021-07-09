@@ -1,3 +1,5 @@
+// Задания с сайта https://learn.javascript.ru //
+
 //1//
 alert('Я JavaScript!')
 
