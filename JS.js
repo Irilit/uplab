@@ -65,7 +65,7 @@ if (user == 'Админ') {
     	alert( 'Неверный пароль' );
   	}
 } else if (user == '' || user == null) {
-  	alert( 'Отменено' ); 
+  	alert( 'Отмена' ); 
 	}
   else {
   	alert( "Я вас не знаю" );
