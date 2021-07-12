@@ -111,3 +111,38 @@ if (n < 1) {
 } else {
   alert( pow(x, n) );
 }
+
+	
+//14//
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+};
+
+let sum = 0;
+for (let key in salaries) {
+  sum += salaries[key];
+}
+
+alert(sum);
+
+//15//
+let calculator = {
+  sum() {
+    return this.a + this.b;
+  },
+
+  mul() {
+    return this.a * this.b;
+  },
+
+  read() {
+    this.a = +prompt('Введите первое число', 0);
+    this.b = +prompt('Введите второе число', 0);
+  }
+};
+
+calculator.read();
+alert( calculator.sum() );
+alert( calculator.mul() );
